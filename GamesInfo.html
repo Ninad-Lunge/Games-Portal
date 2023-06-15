@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    @font-face {
+      font-family: 'SuperMario';
+      src: url(Fonts/Super_Mario_Bros_2.ttf);
+    }
+    body{
+      background-image: url("Images/bg.png");
+    }
+    table,th,td {
+      border : 1px solid black;
+      border-collapse: collapse;
+    }
+    th,td {
+      padding: 5px;
+    }
+  </style>
+  <body>
+
+  <h1 style="font-family: 'SuperMario'; color: white;">Games Info</h1>
+
+  <form action=""> 
+    <select name="customers" onchange="showGames(this.value)" style="padding: 10px; border-radius: 5px;">
+      <option value="">Select a Title:</option>
+      <option value="1">Fall Game</option>
+      <option value="2 ">Game 2</option>
+      <option value="3">Game 3</option>
+    </select>
+  </form>
+  <br>
+  <div id="txtHint" style="color: white;"><h3>Games info will be listed here...</h3></div>
+  <div>
+    <button style="padding: 5x;">
+      <a href="AboutUs.html" style="text-decoration: none; color: blue;">Back</a>
+    </button>
+  </div>
+  <script>
+    function showGames(str) {
+      var xhttp;    
+      if (str == "") {
+        document.getElementById("txtHint").innerHTML = "";
+        return;
+      }
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("txtHint").innerHTML = this.responseText;
+        }
+      };
+      xhttp.open("GET", "GamesInfo.php?q="+str, true);
+      xhttp.send();
+    }
+  </script>
+
+  </body>
+</html>

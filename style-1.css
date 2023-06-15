@@ -1,0 +1,168 @@
+*{padding: 0; margin: 0; box-sizing : border-box;}
+@font-face {
+    font-family: 'SuperMario';
+    src: url(Fonts/Super_Mario_Bros_2.ttf);
+}
+body{
+    background: linear-gradient(180deg, #1E1E1E 0%, #100E16 100%);
+    mix-blend-mode: screen;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    font-family: 'SuperMario';
+    padding-top: 10px;
+    background-image:url('Images/player_2_by_kirokaze_d9nwsnt.gif');
+    background-repeat: repeat;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .logo{
+    position: absolute;
+    top: 30px;
+    left: 60px;
+} */
+.menu a{
+    text-decoration : none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+}
+.menu a:before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid #1125DB;
+    transition: 0.4s linear;
+}
+.menu a:hover:before{
+    width: 90%;
+}
+img{
+    height: 10%;
+    width: 10%;
+}
+.yellow{
+    font-family: 'SuperMario';
+    color: #F2F700;
+    position: absolute;
+    width: 462px;
+    height: 40px;
+    left: 85px;
+    top: 320px;
+    font-size: 24px;
+}
+.title{
+    position: absolute;
+    width: 750px;
+    height: 270px;
+    left: 85px;
+    top: 350px;
+
+    font-family: 'SuperMario';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 120px;
+
+    color: #FFFFFF;
+}
+.lower-yellow{
+    position: absolute;
+    left: 230px;
+    top: 700px;
+
+    font-family: 'Super Mario Bros. 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #F2F700;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'SuperMario';
+}
+.button1 {
+    background-color: #00010B; 
+    color: #0FEE33; 
+    border: 5px solid #1125DB;
+}
+.button1:hover {
+    background-color: #1125DB;
+    color: white;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 780px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.lower-yellow2{
+    position: absolute;
+    left: 250px;
+    top: 830px;
+
+    font-family: 'Super Mario Bros. 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #F2F700;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 1000px;
+    background: rgb(8, 8, 8);
+    padding: 20px;
+}
+.box {
+    background-color: lightgrey;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    border-radius: 30px;
+}
+.credit{
+    font-family: 'SuperMario';
+    font-size: 14px;
+    color: #FFFFFF;
+} 
+.icon-bar a {
+    width: 30%;
+    transition: all 0.3s ease;
+    color: white;
+    padding: 10px;
+}
+.icon-bar a:hover {
+    background-color: #000;
+}

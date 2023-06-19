@@ -10,7 +10,7 @@ The idea behind making Games Portal was to provide people a platform to host and
 ![Screenshot (388)](https://github.com/Ninad-Lunge/Games-Portal/assets/96621805/ba28ca25-c29b-4753-b8e4-874f4d9dcbda)
 ![Screenshot (389)](https://github.com/Ninad-Lunge/Games-Portal/assets/96621805/228beda9-c89f-4413-add8-6e5fb1404994)
 
-2. LoginIn Page
+2. Login Page
 ![Screenshot (392)](https://github.com/Ninad-Lunge/Games-Portal/assets/96621805/6eaff580-300b-40e0-b794-e925e7234dac)
 
 3. Register Page

@@ -4,7 +4,7 @@ Below are the screenshots of the website.
 
 1. Home Page
 ![Screenshot (388)](https://github.com/Ninad-Lunge/Games-Portal/assets/96621805/ba28ca25-c29b-4753-b8e4-874f4d9dcbda)
-![Screenshot (389)](https://github.com/Ninad-Lunge/Games-Portal/assets/96621805/a4a87002-49df-4386-8f7d-64b0a810fe01)
+![Screenshot (389)](https://github.com/Ninad-Lunge/Games-Portal/assets/96621805/228beda9-c89f-4413-add8-6e5fb1404994)
 
 2. LoginIn Page
 ![Screenshot (392)](https://github.com/Ninad-Lunge/Games-Portal/assets/96621805/6eaff580-300b-40e0-b794-e925e7234dac)
@@ -13,7 +13,7 @@ Below are the screenshots of the website.
 ![Screenshot (391)](https://github.com/Ninad-Lunge/Games-Portal/assets/96621805/de1002bf-88c3-4cce-a721-6a75b23a4a3f)
 
 4. Library Page
-![Library Page](https://github.com/Ninad-Lunge/Games-Portal/assets/96621805/2a1fb471-7879-4682-9f49-2e4c7402d1f6)
+![Library Page](https://github.com/Ninad-Lunge/Games-Portal/assets/96621805/7df47936-b0ac-4808-beb6-4154bd705ae4)
 
 5. About Us/Me page
 ![Screenshot (395)](https://github.com/Ninad-Lunge/Games-Portal/assets/96621805/a05e7f06-100b-46c7-a0d7-797997728b96)

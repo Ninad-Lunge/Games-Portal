@@ -8,6 +8,7 @@ The idea behind making Games Portal was to provide people a platform to host and
 
 ## Live Demo
 https://ninad-lunge.github.io/Games-Portal/
+[The PHP functions like Login, Logout and some AJAX functions won't work as they are written for a local database.]
 
 ## Screenshots
 1. Home Page
